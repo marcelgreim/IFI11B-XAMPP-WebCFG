@@ -1,0 +1,86 @@
+<html>
+<head>
+<title>Bestellseite</title>
+</head>
+<body>
+<form action="zweitewebseite.html">
+<h1><font size=7>Pizzabestellung</font></h1>
+<body bgcolor="yellow">
+<br />
+
+<table>
+<table border="1" cellspacing="0" cellpadding="0">
+
+<td>Anrede</td>
+
+<td>
+
+
+<select name="anrede">
+	<option name="Herr" value="1">Herr</option>
+	<option name="Frau" value="2">Frau</option>
+	<option name="etc" value="3">Anders</option>
+</select>	
+
+</td>
+<tr>
+<td>Vorname</td>
+<td>
+<input type="text" name="vorname" value="" />
+</td>
+</tr>
+<tr>
+<td>Nachname</td>
+<td>
+<input type="text" name="nachname" value="" />
+</td>
+</tr>
+<tr>
+<td>Straße</td>
+<td>
+<input type="text" name="strasse" value="" />
+</td>
+</tr>
+<tr>
+<td>PLZ-Ort</td>
+<td>
+<input type="text" name="plz" value="" maxlength="5" size="4" />
+<input type="text" name="ort" value="" size="11"/>
+</td>
+</tr>
+<tr>
+<td>E-Mail</td>
+<td>
+<input type="text" name="mail" value=""  />
+</td>
+</tr>
+<tr>
+<td>Zahlungsweise</td>
+<td>
+<input type="checkbox" name="bar" value="" />
+<label for="bar">Bar</label> <br>
+<input type="checkbox" name="kreditkarte" value="" />
+<label for="kreditkarte">Kreditkarte</label> <br> <br>
+</td>
+</tr>
+<tr>
+<td>Zutaten</td>
+<td>
+<input type="checkbox" name="pepperoni" value="pepperoni" />
+<label for="pepperoni">Pepperoni</label> <br>
+<input type="checkbox" name="salami" value="salami" />
+<label for="salami">Salami</label> <br>
+<input type="checkbox" name="schinken" value="schinken" />
+<label for="schinken">Schinken</label> <br>
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="submit" name="Bestellung"></input>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
